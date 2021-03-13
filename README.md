@@ -82,38 +82,38 @@ Podemos ver la descripcion del proyecto en este pdf [file](/lab4.pdf) mostrando 
   
   ***Listar todos los contenedores***
   
- ```sh
-  $ docker container ls 
-  $ docker ps -a (List all containers not just running)
-```
+   ```sh
+    $ docker container ls 
+    $ docker ps -a (List all containers not just running)
+   ```
+     
+    ***Listar imagenes***
 
- ***Listar imagenes***
-  
+      ```sh
+    $ docker images  
+     ```
+
+   ***Contruir una imagen de un Dockerfile***
+
+    ```sh
+    $ docker build -t <myimage> 
+  ```
+   ***Correr un contenedor***
+
+    ```sh
+    $ docker run -d -p <localport>:<containerport> --name firstdockercontainer <image> 
+  ```
+   ***Correr docker-compose con 3 instancias web***
+
   ```sh
-  $ docker images  
-```
+    $ docker-compose up -d --scale web=3
+  ```
 
- ***Contruir una imagen de un Dockerfile***
-  
-  ```sh
-  $ docker build -t <myimage> 
-```
- ***Correr un contenedor***
+   ***Obtener un shell del contenedor***
 
   ```sh
-  $ docker run -d -p <localport>:<containerport> --name firstdockercontainer <image> 
-```
- ***Correr docker-compose con 3 instancias web***
-
-```sh
-  $ docker-compose up -d --scale web=3
-```
-
- ***Obtener un shell del contenedor***
-
-```sh
-  $ docker exec -it <docker ID> /bin/bash
-```
+    $ docker exec -it <docker ID> /bin/bash
+  ```
 
 ## Despliegue en Heroku
 
