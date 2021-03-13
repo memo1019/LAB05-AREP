@@ -1,4 +1,4 @@
-# AREP LABORATORIO 4 - TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
+# AREP LABORATORIO 5 - TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
 
 se realizo el Aplicativo Web diseñado en Java con el objetivo de crear un servidor HTTP,creado en el anterior laboratorio y un framework que simule algunas de las funciones del framework Spring, este servidor acepta peticiones get que son mapeadas haciendo uso de anotaciones en los metodos y luego estos son creados mediante reflexión y patrones IOC, para esta aplicación el servidor devuelve archivos estáticos para ser visualizados por el usuario.
 
