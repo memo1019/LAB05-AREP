@@ -1,15 +1,17 @@
 # AREP LABORATORIO 5 - TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
 
-se realizo el Aplicativo Web diseñado en Java con el objetivo de crear un servidor HTTP,creado en el anterior laboratorio y un framework que simule algunas de las funciones del framework Spring, este servidor acepta peticiones get que son mapeadas haciendo uso de anotaciones en los metodos y luego estos son creados mediante reflexión y patrones IOC, para esta aplicación el servidor devuelve archivos estáticos para ser visualizados por el usuario.
+Este taller consiste en crear una arquitectura que contenga un balanceador de carga, 3 nodos que manejen peticiones REST y un nodo que contenga una base de datos mongo. Cada nodo representa un contenedor en Docker.
+
 
 ### PREREQUISITOS
 
 Los prerrequisitos que manejaremos para lograr con exito el desarrollo del laboratorio son:
 - Maven
-- Git  
-- Java
-- Heroku CLI
-- Postgres
+- Git
+- MongoDB
+- Aws
+- Docker
+- Docker-Compose
 
 ### Ejecucion e instalacion
 se debe clonar el proyecto con el siguiente comando:
@@ -19,12 +21,24 @@ git clone https://github.com/memo1019/LAB04-AREP
 ```
 luego ingresaremos a la carpeta dede el cmd o la consola:
 ```
-cd /Lab04-AREP
+cd /Lab05-AREP
 ```
 Finalmente coonstruiremos y compilaremos el proyecto para asi poder ejecutarlo.
 ```
- mvn package
+ docker pull memo1019/arep5balancer:latest
+ docker pull memo1019/arep5web:latest
 ```
+
+Si desea ejecutar los contenedores directamente desde las imágenes de DockerHub, ejecute el siguiente comando:
+```
+docker-compose up -d --scale web=3
+```
+Si estás trabajando en una máquina Linux o Mac, [instala docker-compose](https://docs.docker.com/compose/install/).
+En windows, docker-compose ya está en docker desktop.
+
+entonces ve a localhost:8087 para acceder directamente al contenedor del Load Balancer.
+Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:8089 y localhost:8090, pero en AWS EC2 el puerto 8087 era el único oppened para el tráfico.la aplicación seguirá esta arquitectura en AWS(Para más información sobre cómo funcionaba en AWS plese visitar el archivo de documentación):
+
 ## Pruebas
 las podra ver corriendo con el comando 
 
@@ -114,11 +128,6 @@ Podemos ver la descripcion del proyecto en este pdf [file](/lab4.pdf) mostrando 
   ```sh
     $ docker exec -it <docker ID> /bin/bash
   ```
-
-## Despliegue en Heroku
-
-[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://lab04-arep.herokuapp.com/escuelaing/operacion.html)
-
 
 ## Autor
 
