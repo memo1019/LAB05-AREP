@@ -60,13 +60,13 @@ La aplicación se despliega con heroku y el enlace está en la parte inferior de
 
 ## Diseño
 
-![Diagrama de Clases](/src/site/Resources/diclases.png)
+![Diagrama de Clases](/src/site/Resources/prueba8.png)
 ### Diagrama de clases
 #### Load Balancer
-![Diagrama de Clases](/src/site/Resources/diclases.png)
+![Diagrama de Clases](/images/prueba7.png)
 
 #### Rest Server
-![Diagrama de Clases](/images/diclases.png)
+![Diagrama de Clases](/images/prueba6.png)
 ## Documentacion
 para realizar la documentacion de javadoc use estos comandos y aqui podra llevar acabo el proceso de creacion de esta documentacion.
 ```
