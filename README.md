@@ -46,7 +46,7 @@ las podra ver corriendo con el comando
  mvn test
 ```
 
-## Correr
+## DOCKER IMAGES
 
 Para correr el programa tenemos que ejecutar el siguiente comando :
 
@@ -61,7 +61,12 @@ La aplicación se despliega con heroku y el enlace está en la parte inferior de
 ## Diseño
 
 ![Diagrama de Clases](/src/site/Resources/diclases.png)
+### Diagrama de clases
+#### Load Balancer
+![Diagrama de Clases](/src/site/Resources/diclases.png)
 
+#### Rest Server
+![Diagrama de Clases](/images/diclases.png)
 ## Documentacion
 para realizar la documentacion de javadoc use estos comandos y aqui podra llevar acabo el proceso de creacion de esta documentacion.
 ```
