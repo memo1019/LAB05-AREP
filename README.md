@@ -12,6 +12,15 @@ Los prerrequisitos que manejaremos para lograr con exito el desarrollo del labor
 - Aws
 - Docker
 - Docker-Compose
+## DOCKER IMAGES
+
+ vemos las imagenes en las siguientes webs:
+
+- Web:
+    https://hub.docker.com/repository/docker/memo1019/labarep05
+- Balancer:
+    https://hub.docker.com/repository/docker/memo1019/webdocker
+
 
 ### Ejecucion e instalacion
 se debe clonar el proyecto con el siguiente comando:
@@ -46,17 +55,8 @@ las podra ver corriendo con el comando
  mvn test
 ```
 
-## DOCKER IMAGES
-
-Para correr el programa tenemos que ejecutar el siguiente comando :
-
-```
-java -cp target/classes;target/dependency/* edu.co.escuelaing.nanospring.demo.Application
-```
-Luego vaya a http://localhost:4567/escuelaing/operacion.html para ver el programa desplegado localmente
 
 
-La aplicación se despliega con heroku y el enlace está en la parte inferior de este documento (botón Heroku)
 
 ## Diseño
 
