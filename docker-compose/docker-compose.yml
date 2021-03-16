@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  loadbalancer:
+    image: memo1019/lab5arep
+    depends_on:
+      - web
+    container_name: loadbalancer-arep
+    ports:
+      - "9001:6000"
+  web:
+    image : memo1019/webdocker
+    depends_on: 
+      - db
+    ports:
+      - "4444-4446:6000"
+
+  db:
+    image: mongo:latest
+    container_name: arep-mongo
+    environment:
+      MONGO_INITDB_DATABASE: Arep
+      MONGO_INITDB_ROOT_USERNAME: memo
+      MONGO_INITDB_ROOT_PASSWORD: memo1019
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - mongodb:/data/db
+      - mongodb_config:/data/configdb
+    ports:
+      - 27017:27017
+
+    command: mongod
+
+volumes:
+  mongodb:
+  mongodb_config:
