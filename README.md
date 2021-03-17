@@ -54,6 +54,16 @@ Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:
 
 ![Diagrama de Clases](/imagenes/prueba1.png)
 
+*** instancia ejecutada ***
+
+
+![Diagrama de Clases](/imagenes/prueba5.png)
+
+***Grupo de seguridad***
+
+
+![Diagrama de Clases](/imagenes/prueba2.png)
+
 *** Web-App corriendo en AWS con la arquitectura descrita ***
 
 
