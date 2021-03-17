@@ -1,4 +1,4 @@
-# AREP LABORATORIO 5 - TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
+# AREP LABORATORIO 5 - TALLER DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
 
 Este taller consiste en crear una arquitectura que contenga un balanceador de carga, 3 nodos que manejen peticiones REST y un nodo que contenga una base de datos mongo. Cada nodo representa un contenedor en Docker.
 
