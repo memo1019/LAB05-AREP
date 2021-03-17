@@ -50,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ARSW/ProyectoARSW2021_LottoWeb" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +64,7 @@
       <workItem from="1615815844796" duration="1753000" />
       <workItem from="1615830158493" duration="39000" />
       <workItem from="1615862836236" duration="3022000" />
-      <workItem from="1615929285490" duration="4843000" />
+      <workItem from="1615929285490" duration="7264000" />
     </task>
     <servers />
   </component>
@@ -84,10 +84,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1615870632002">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1615945810590">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1615870632002" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1615945810590" />
     <state x="330" y="85" key="Maven.ArtifactSearchDialog" timestamp="1615816360465">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
