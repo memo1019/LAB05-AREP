@@ -49,14 +49,20 @@ entonces ve a localhost:8087 para acceder directamente al contenedor del Load Ba
 Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:8089 y localhost:8090, pero en AWS EC2 el puerto 8087 era el único oppened para el tráfico.la aplicación seguirá esta arquitectura en AWS(Para más información sobre cómo funcionaba en AWS plese visitar el archivo de documentación):
 
 ## Pruebas
-las podra ver corriendo con el comando 
 
-```
- mvn test
-```
+*** Web-App corriendo localmente con la arquitectura descrita ***
+
+![Diagrama de Clases](/imagenes/prueba1.png)
+
+*** Web-App corriendo en AWS con la arquitectura descrita ***
 
 
+![Diagrama de Clases](/imagenes/prueba2.png)
 
+*** imagenes del docker y contenedores de la instancia de EC2 corriendo con ssh***
+
+
+![Diagrama de Clases](/imagenes/prueba3.png)
 
 ## Diseño
 
