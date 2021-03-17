@@ -50,11 +50,11 @@ Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:
 
 ## Pruebas
 
-*** Web-App corriendo localmente con la arquitectura descrita ***
+***Web-App corriendo localmente con la arquitectura descrita***
 
 ![Diagrama de Clases](/imagenes/prueba1.png)
 
-*** instancia ejecutada ***
+***instancia ejecutada***
 
 
 ![Diagrama de Clases](/imagenes/prueba5.png)
@@ -62,17 +62,17 @@ Si quieres acceder a los contenedores web, puedes ir a localhost:8088,localhost:
 ***Grupo de seguridad***
 
 
-![Diagrama de Clases](/imagenes/prueba2.png)
-
-*** Web-App corriendo en AWS con la arquitectura descrita ***
-
-
-![Diagrama de Clases](/imagenes/prueba2.png)
-
-*** imagenes del docker y contenedores de la instancia de EC2 corriendo con ssh***
-
-
 ![Diagrama de Clases](/imagenes/prueba3.png)
+
+***Web-App corriendo en AWS con la arquitectura descrita***
+
+
+![Diagrama de Clases](/imagenes/prueba2.png)
+
+***imagenes del docker y contenedores de la instancia de EC2 corriendo con ssh***
+
+
+![Diagrama de Clases](/imagenes/prueba4.png)
 
 ## Diseño
 
